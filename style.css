@@ -38,3 +38,10 @@ body{
     background: #212837;
     
 }
+/* .play-board .food{
+    background: green;
+} */
+.food{
+    grid-area: "${foodY} / ${foodX}";
+    background: green;
+}
